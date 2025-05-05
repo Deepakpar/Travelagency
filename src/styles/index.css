@@ -1,0 +1,542 @@
+* {
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: whitesmoke
+}
+
+/*div {
+    border: 1px solid black;
+    padding: 10px;
+}*/
+
+.logo {
+    grid-column: 1 / 4;
+    align-content: center;
+}
+
+.nav{
+    grid-column: 4 / 10;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+}
+
+.auth {
+    grid-column: 10 / 13;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.auth button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orangered;
+    background-color: whitesmoke
+}
+
+.auth button:last-child{
+    color: white;
+    background-color: orangered;
+    padding: 20px 40px;
+}
+
+.hero-description {
+    grid-column: 1 / 5;
+    margin-top: 80px;
+}
+
+.hero-image {
+    grid-column: 5 / 13;
+    text-align: center;
+}
+
+.hero-description h1 {
+    font-size: 4em;
+}
+
+.hero-description p {
+    font-size: 1.5em;
+}
+
+.hero-description button {
+    align-self: end;
+    justify-self: start;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: #FFFFFF;
+}
+
+.highlights {
+    color: orangered;
+    font-size: inherit;
+}
+
+.enquiry {
+    margin-top: 50px;
+    grid-column: 2 / 10;
+    display: grid;
+    grid-template-columns: repeat(4, auto); /* 3 selects + 1 button */
+    gap: 60px;
+    align-items: center; /* Aligns button and form fields vertically */
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  
+  .enquiry-form {
+    display: contents; /* So the .form-group items are placed directly into the grid */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-select {
+    border: none;
+    padding: 2px 4px;
+    font-size: 1rem;
+    min-width: 160px;
+    cursor: pointer;
+  }
+  
+  .select-caption {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .enquiry-btn {
+    padding: 12px 24px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: whitesmoke;
+  }
+
+  .signup-description{
+    grid-column: 4 / 10;
+    justify-content: right;   /* Vertical center */
+    text-align: center; 
+  }
+  
+  .signup-image {
+    margin-top: 0;
+    grid-column: 10 / 13;
+    justify-content: left;
+  }
+
+  .signup-description h2{
+    margin-top: 0;
+    font-size: 3em;
+  }
+
+  .advertise {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap:20px;
+    grid-column: 1 / 13;
+  }
+
+  .advertise-signup {
+    background-color: white;
+    width: 300px;
+  }
+
+  .advertise-worth {
+    background-color: white;
+    width: 300px;
+  }
+
+  .advertise-travel {
+    background-color: white;
+    width: 300px;
+  }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: whitesmoke;
+  }
+
+  .discount {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-column: 1 / 13;
+    justify-content: center;
+    text-align: center; 
+  }
+
+  .discount h2{
+        margin-top: 0;
+        font-size: 3em;
+  }
+
+  .discount-image {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column: 1 / 13;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .discount-btn{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column: 1 / 13; 
+    justify-content: center;  
+    gap: 20px;
+  }
+
+  .circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle-button:last-child{
+    background-color: orangered;
+  }
+
+ .star {
+  color: gold;
+ }
+
+ .cy{
+  font-size: 16px;
+  font-weight: bold;
+ }
+
+ .country {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column: 1 / 13;
+  justify-content: space-around;
+  font-size: 16px;
+ }
+
+ .discount-price{
+  color: orangered;
+  background-color: #FFE7DB;
+  padding: 2px 2px;
+ }
+
+ .container4 {
+  display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: whitesmoke;
+}
+
+.bestplan-description {
+  margin-top: 0;
+  grid-column: 4 / 10;
+  justify-content: right;   /* Vertical center */
+  text-align: center; 
+}
+
+.bestplan-description h2{
+  font-size: 3em;
+}
+
+.bestplan-img{
+    grid-column: 10 / 13;
+    justify-content: left;
+}
+
+.bestcity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestplan-btn{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-right: 20px;
+  grid-column: 10 / 13;
+  gap:30px;
+  justify-content: left;
+  align-items: center;
+}
+
+.bestplan-image{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column: 1 / 13;
+  gap: 20px;
+  justify-content: center;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: whitesmoke;
+}
+
+.about {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-column: 1 / 7;
+  justify-content: center;
+}
+
+
+.review {
+  display: grid;
+    grid-template-columns: repeat(1, auto); /* Single column for stacking items */
+    grid-template-rows: auto auto; /* Two rows: one for review1, one for block */
+    position: relative;
+    grid-column: 7 / 10;
+    max-width: 500px;
+   margin-top: 50px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.about-img {
+  display: grid;
+  grid-column: 10 / 13;
+}
+
+.about-description{
+  display: grid;
+  grid-column: 8 / 13;
+}
+
+.about-btn{
+  display: flex;
+  gap: 30px;
+}
+
+.review1 {
+  position: relative;
+  background-color: #F5F5F5;
+  padding: 40px 20px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensures it's on top */
+}
+
+/* Image floats out of top-left */
+.review1 img {
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: white
+}
+
+/* Background block half-hidden behind review1 */
+.block {
+  position: relative;
+  background-color: #F7F8FC;
+  border-radius: 12px;
+  right: -40px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1; /* Keeps it behind review1 */
+  margin-top: -30px; /* Pulls the block up to overlap review1 */
+}
+.about h2 {
+  font-size: 3em;
+}
+
+.container6 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: whitesmoke;
+}
+
+.blog{
+  display: grid;
+  grid-column: 1 / 13;
+  justify-content: center;
+}
+
+.blog h2 {
+  font-size: 3em;
+}
+
+.blog-img {
+  display: grid;
+  grid-template-columns: repeat(4, auto);  
+  grid-column: 1 / 13;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dot{
+  display:grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column: 1 / 13; 
+  justify-content: center;  
+  gap: 10px;
+}
+
+.container7 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: whitesmoke;
+}
+
+.background {
+  position: relative;
+  margin: 50px;
+  display: grid;
+  grid-column: 3 / 10;
+  background-color: orangered;
+}
+
+.subscribe {
+  display:grid;
+  grid-column: 4 / 10;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-img {
+  display: grid;
+  grid-column: 10 / 13;
+  justify-content: right;
+}
+
+.subscribe h2{
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-block {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-column: 4 / 10;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.eclipse {
+  position: absolute;
+    top: 50%;  /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    z-index: 1;
+    opacity: 0.3; 
+}
+
+.eclipse img {
+  width: 100px;
+  height: auto;
+}
+
+.subscribe-input{
+  border: none;
+}
+
+.subscribe-button {
+  background-color: orangered;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.socialmedia{
+  display: grid;
+  grid-column: 3 / 5;
+  align-items: center;
+}
+
+.contactinfo {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column: 6 / 10;
+}
+
+.line {
+  display: grid;
+  grid-column: 3 / 10;
+  justify-content: center;
+}
+
+
+
+.company-list li a{
+  text-decoration: none;
+  color: grey;
+}
+
+.company-list{
+  list-style: none;
+}
+
+.contact-list li a{
+  text-decoration: none;
+  color: grey;
+}
+
+.contact-list{
+  list-style: none;
+  align-content: left;
+}
+
+.more-list li a{
+  text-decoration: none;
+  color: grey;
+}
+
+.more-list{
+  list-style: none;
+}
+
+.footer {
+  grid-column: 3 / 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+}
