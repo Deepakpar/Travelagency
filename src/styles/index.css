@@ -2,6 +2,7 @@
     font-size: 16px;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -141,6 +142,7 @@
   }
 
   .signup-description{
+    margin-top: 20px;
     grid-column: 4 / 10;
     justify-content: right;   /* Vertical center */
     text-align: center; 
@@ -218,16 +220,24 @@
   }
 
   .circle-button {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     background-color: whitesmoke;
     cursor: pointer;
+    font-size: 1.5rem;
+    color: grey;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 
-  .circle-button:last-child{
+  .circle-button-orange{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: white;
     background-color: orangered;
   }
 
@@ -409,6 +419,7 @@
   grid-template-columns: repeat(3, auto);
   grid-column: 1 / 13; 
   justify-content: center;  
+  align-items: center;
   gap: 10px;
 }
 
@@ -421,6 +432,7 @@
 .background {
   position: relative;
   margin: 50px;
+  border: 12px;
   display: grid;
   grid-column: 3 / 10;
   background-color: orangered;
@@ -479,6 +491,22 @@
   background-color: orangered;
   color: white;
   border-radius: 8px;
+  border: none;
+}
+
+.dot-button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border:none;
+    background-color: gray;
+}
+
+.dot-button-orange{
+  width:18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: orangered;
   border: none;
 }
 
