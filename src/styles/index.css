@@ -15,12 +15,12 @@
 }*/
 
 .logo {
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     align-content: center;
 }
 
 .nav{
-    grid-column: 4 / 10;
+    grid-column: 4 / 8;
 }
 
 .nav-list li a{
@@ -35,7 +35,7 @@
 }
 
 .auth {
-    grid-column: 10 / 13;
+    grid-column: 8 / 11;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -58,12 +58,12 @@
 }
 
 .hero-description {
-    grid-column: 1 / 5;
+    grid-column: 2 / 6;
     margin-top: 80px;
 }
 
 .hero-image {
-    grid-column: 5 / 13;
+    grid-column: 6 / 11;
     text-align: center;
 }
 
@@ -92,7 +92,7 @@
 
 .enquiry {
     margin-top: 50px;
-    grid-column: 2 / 10;
+    grid-column: 4 / 9;
     display: grid;
     grid-template-columns: repeat(4, auto); /* 3 selects + 1 button */
     gap: 60px;
@@ -320,7 +320,7 @@
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(1, auto);
-  grid-column: 1 / 7;
+  grid-column: 3 / 6;
   justify-content: center;
 }
 
@@ -330,7 +330,7 @@
     grid-template-columns: repeat(1, auto); /* Single column for stacking items */
     grid-template-rows: auto auto; /* Two rows: one for review1, one for block */
     position: relative;
-    grid-column: 7 / 10;
+    grid-column: 6 / 10;
     max-width: 500px;
    margin-top: 50px;
 }
@@ -434,7 +434,7 @@
   margin: 50px;
   border: 12px;
   display: grid;
-  grid-column: 3 / 10;
+  grid-column: 4 / 10;
   background-color: orangered;
 }
 
@@ -512,7 +512,7 @@
 
 .socialmedia{
   display: grid;
-  grid-column: 3 / 5;
+  grid-column: 4 / 6;
   align-items: center;
 }
 
@@ -524,7 +524,7 @@
 
 .line {
   display: grid;
-  grid-column: 3 / 10;
+  grid-column: 5 / 9;
   justify-content: center;
 }
 
@@ -559,7 +559,7 @@
 }
 
 .footer {
-  grid-column: 3 / 10;
+  grid-column: 4 / 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
